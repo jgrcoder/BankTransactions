@@ -12,7 +12,7 @@
 #import "JGRDetailTableViewController.h"
 
 
-NSString * const kTransactionsURL = @"https://dl.dropboxusercontent.com/u/11350806/traderBank.json";
+NSString * const kTransactionsURL = @"https://dl.dropboxusercontent.com/u/11350806/remoteTransactions.json";
 NSString * const cellIndentifier = @"transactionCell";
 @interface JGRTransactionTableViewController()
 
