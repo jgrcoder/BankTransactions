@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFA9A7541AD984B2001B6AAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A7531AD984B2001B6AAB /* main.m */; };
+		FFA9A7571AD984B2001B6AAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A7561AD984B2001B6AAB /* AppDelegate.m */; };
+		FFA9A7591AD984B2001B6AAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA9A7581AD984B2001B6AAB /* Images.xcassets */; };
+		FFA9A75C1AD984B2001B6AAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9A75A1AD984B2001B6AAB /* LaunchScreen.xib */; };
+		FFA9A7681AD984B3001B6AAB /* TransactionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A7671AD984B3001B6AAB /* TransactionsTests.m */; };
+		FFA9A7771AD9855E001B6AAB /* JGRConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A7761AD9855E001B6AAB /* JGRConnectionManager.m */; };
+		FFA9A77A1AD985D1001B6AAB /* JGRTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A7791AD985D1001B6AAB /* JGRTransaction.m */; };
+		FFA9A77E1AD985FD001B6AAB /* JGRTransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A77C1AD985FD001B6AAB /* JGRTransactionCell.m */; };
+		FFA9A77F1AD985FD001B6AAB /* JGRTransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9A77D1AD985FD001B6AAB /* JGRTransactionCell.xib */; };
+		FFA9A7821AD98662001B6AAB /* JGRTransactionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A7811AD98662001B6AAB /* JGRTransactionTableViewController.m */; };
+		FFA9A7851AD986CA001B6AAB /* JGRDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9A7841AD986CA001B6AAB /* JGRDetailTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA9A7621AD984B3001B6AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA9A7461AD984B2001B6AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA9A74D1AD984B2001B6AAB;
+			remoteInfo = Transactions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFA9A74E1AD984B2001B6AAB /* Transactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA9A7521AD984B2001B6AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA9A7531AD984B2001B6AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFA9A7551AD984B2001B6AAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFA9A7561AD984B2001B6AAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFA9A7581AD984B2001B6AAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFA9A75B1AD984B2001B6AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFA9A7611AD984B3001B6AAB /* TransactionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA9A7661AD984B3001B6AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA9A7671AD984B3001B6AAB /* TransactionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionsTests.m; sourceTree = "<group>"; };
+		FFA9A7751AD9855E001B6AAB /* JGRConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGRConnectionManager.h; path = Helper/JGRConnectionManager.h; sourceTree = "<group>"; };
+		FFA9A7761AD9855E001B6AAB /* JGRConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGRConnectionManager.m; path = Helper/JGRConnectionManager.m; sourceTree = "<group>"; };
+		FFA9A7781AD985D1001B6AAB /* JGRTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGRTransaction.h; path = Models/JGRTransaction.h; sourceTree = "<group>"; };
+		FFA9A7791AD985D1001B6AAB /* JGRTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGRTransaction.m; path = Models/JGRTransaction.m; sourceTree = "<group>"; };
+		FFA9A77B1AD985FD001B6AAB /* JGRTransactionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGRTransactionCell.h; path = Views/JGRTransactionCell.h; sourceTree = "<group>"; };
+		FFA9A77C1AD985FD001B6AAB /* JGRTransactionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGRTransactionCell.m; path = Views/JGRTransactionCell.m; sourceTree = "<group>"; };
+		FFA9A77D1AD985FD001B6AAB /* JGRTransactionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JGRTransactionCell.xib; path = Views/JGRTransactionCell.xib; sourceTree = "<group>"; };
+		FFA9A7801AD98662001B6AAB /* JGRTransactionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGRTransactionTableViewController.h; path = Controllers/JGRTransactionTableViewController.h; sourceTree = "<group>"; };
+		FFA9A7811AD98662001B6AAB /* JGRTransactionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGRTransactionTableViewController.m; path = Controllers/JGRTransactionTableViewController.m; sourceTree = "<group>"; };
+		FFA9A7831AD986CA001B6AAB /* JGRDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGRDetailTableViewController.h; path = Controllers/JGRDetailTableViewController.h; sourceTree = "<group>"; };
+		FFA9A7841AD986CA001B6AAB /* JGRDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGRDetailTableViewController.m; path = Controllers/JGRDetailTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA9A74B1AD984B2001B6AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9A75E1AD984B3001B6AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA9A7451AD984B2001B6AAB = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7501AD984B2001B6AAB /* Transactions */,
+				FFA9A7641AD984B3001B6AAB /* TransactionsTests */,
+				FFA9A74F1AD984B2001B6AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA9A74F1AD984B2001B6AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A74E1AD984B2001B6AAB /* Transactions.app */,
+				FFA9A7611AD984B3001B6AAB /* TransactionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA9A7501AD984B2001B6AAB /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7711AD98511001B6AAB /* Helper */,
+				FFA9A7741AD98523001B6AAB /* Models */,
+				FFA9A7721AD98517001B6AAB /* Views */,
+				FFA9A7731AD9851D001B6AAB /* Controllers */,
+				FFA9A7551AD984B2001B6AAB /* AppDelegate.h */,
+				FFA9A7561AD984B2001B6AAB /* AppDelegate.m */,
+				FFA9A7581AD984B2001B6AAB /* Images.xcassets */,
+				FFA9A75A1AD984B2001B6AAB /* LaunchScreen.xib */,
+				FFA9A7511AD984B2001B6AAB /* Supporting Files */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		FFA9A7511AD984B2001B6AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7521AD984B2001B6AAB /* Info.plist */,
+				FFA9A7531AD984B2001B6AAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA9A7641AD984B3001B6AAB /* TransactionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7671AD984B3001B6AAB /* TransactionsTests.m */,
+				FFA9A7651AD984B3001B6AAB /* Supporting Files */,
+			);
+			path = TransactionsTests;
+			sourceTree = "<group>";
+		};
+		FFA9A7651AD984B3001B6AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7661AD984B3001B6AAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA9A7711AD98511001B6AAB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7751AD9855E001B6AAB /* JGRConnectionManager.h */,
+				FFA9A7761AD9855E001B6AAB /* JGRConnectionManager.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		FFA9A7721AD98517001B6AAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A77B1AD985FD001B6AAB /* JGRTransactionCell.h */,
+				FFA9A77C1AD985FD001B6AAB /* JGRTransactionCell.m */,
+				FFA9A77D1AD985FD001B6AAB /* JGRTransactionCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FFA9A7731AD9851D001B6AAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7801AD98662001B6AAB /* JGRTransactionTableViewController.h */,
+				FFA9A7811AD98662001B6AAB /* JGRTransactionTableViewController.m */,
+				FFA9A7831AD986CA001B6AAB /* JGRDetailTableViewController.h */,
+				FFA9A7841AD986CA001B6AAB /* JGRDetailTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FFA9A7741AD98523001B6AAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9A7781AD985D1001B6AAB /* JGRTransaction.h */,
+				FFA9A7791AD985D1001B6AAB /* JGRTransaction.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA9A74D1AD984B2001B6AAB /* Transactions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA9A76B1AD984B3001B6AAB /* Build configuration list for PBXNativeTarget "Transactions" */;
+			buildPhases = (
+				FFA9A74A1AD984B2001B6AAB /* Sources */,
+				FFA9A74B1AD984B2001B6AAB /* Frameworks */,
+				FFA9A74C1AD984B2001B6AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transactions;
+			productName = Transactions;
+			productReference = FFA9A74E1AD984B2001B6AAB /* Transactions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA9A7601AD984B3001B6AAB /* TransactionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA9A76E1AD984B3001B6AAB /* Build configuration list for PBXNativeTarget "TransactionsTests" */;
+			buildPhases = (
+				FFA9A75D1AD984B3001B6AAB /* Sources */,
+				FFA9A75E1AD984B3001B6AAB /* Frameworks */,
+				FFA9A75F1AD984B3001B6AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA9A7631AD984B3001B6AAB /* PBXTargetDependency */,
+			);
+			name = TransactionsTests;
+			productName = TransactionsTests;
+			productReference = FFA9A7611AD984B3001B6AAB /* TransactionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA9A7461AD984B2001B6AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jorge González Recio";
+				TargetAttributes = {
+					FFA9A74D1AD984B2001B6AAB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FFA9A7601AD984B3001B6AAB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FFA9A74D1AD984B2001B6AAB;
+					};
+				};
+			};
+			buildConfigurationList = FFA9A7491AD984B2001B6AAB /* Build configuration list for PBXProject "Transactions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA9A7451AD984B2001B6AAB;
+			productRefGroup = FFA9A74F1AD984B2001B6AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA9A74D1AD984B2001B6AAB /* Transactions */,
+				FFA9A7601AD984B3001B6AAB /* TransactionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA9A74C1AD984B2001B6AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9A77F1AD985FD001B6AAB /* JGRTransactionCell.xib in Resources */,
+				FFA9A75C1AD984B2001B6AAB /* LaunchScreen.xib in Resources */,
+				FFA9A7591AD984B2001B6AAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9A75F1AD984B3001B6AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA9A74A1AD984B2001B6AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9A7821AD98662001B6AAB /* JGRTransactionTableViewController.m in Sources */,
+				FFA9A77A1AD985D1001B6AAB /* JGRTransaction.m in Sources */,
+				FFA9A7571AD984B2001B6AAB /* AppDelegate.m in Sources */,
+				FFA9A7851AD986CA001B6AAB /* JGRDetailTableViewController.m in Sources */,
+				FFA9A77E1AD985FD001B6AAB /* JGRTransactionCell.m in Sources */,
+				FFA9A7771AD9855E001B6AAB /* JGRConnectionManager.m in Sources */,
+				FFA9A7541AD984B2001B6AAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9A75D1AD984B3001B6AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9A7681AD984B3001B6AAB /* TransactionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA9A7631AD984B3001B6AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA9A74D1AD984B2001B6AAB /* Transactions */;
+			targetProxy = FFA9A7621AD984B3001B6AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFA9A75A1AD984B2001B6AAB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA9A75B1AD984B2001B6AAB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA9A7691AD984B3001B6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFA9A76A1AD984B3001B6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA9A76C1AD984B3001B6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Transactions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFA9A76D1AD984B3001B6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Transactions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFA9A76F1AD984B3001B6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransactionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transactions.app/Transactions";
+			};
+			name = Debug;
+		};
+		FFA9A7701AD984B3001B6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransactionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transactions.app/Transactions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA9A7491AD984B2001B6AAB /* Build configuration list for PBXProject "Transactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9A7691AD984B3001B6AAB /* Debug */,
+				FFA9A76A1AD984B3001B6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA9A76B1AD984B3001B6AAB /* Build configuration list for PBXNativeTarget "Transactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9A76C1AD984B3001B6AAB /* Debug */,
+				FFA9A76D1AD984B3001B6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA9A76E1AD984B3001B6AAB /* Build configuration list for PBXNativeTarget "TransactionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9A76F1AD984B3001B6AAB /* Debug */,
+				FFA9A7701AD984B3001B6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA9A7461AD984B2001B6AAB /* Project object */;
+}
